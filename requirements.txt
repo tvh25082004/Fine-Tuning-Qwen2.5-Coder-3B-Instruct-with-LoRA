@@ -1,0 +1,31 @@
+# Core training
+torch>=2.1.0
+transformers>=4.46.0
+peft>=0.13.0
+trl>=0.12.0
+bitsandbytes>=0.45.0
+accelerate>=0.34.0
+datasets>=3.0.0
+
+# Unsloth (nếu có CUDA/ROCm)
+# unsloth[cu121-torch230] @ git+https://github.com/unslothai/unsloth.git
+
+# Data & utils
+sentencepiece>=0.2.0
+protobuf>=4.25.0
+huggingface_hub>=0.26.0
+safetensors>=0.4.0
+
+# Notebooks
+jupyter>=1.0.0
+ipywidgets>=8.0.0
+
+# Export GGUF (cài llama.cpp riêng)
+# llama-cpp-python>=0.3.0
+
+# Monitoring
+tqdm>=4.66.0
+rich>=13.7.0
+
+# Dev
+black>=24.0.0
