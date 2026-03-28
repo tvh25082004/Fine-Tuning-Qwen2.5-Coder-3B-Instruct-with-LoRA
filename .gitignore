@@ -3,3 +3,17 @@ Fine-Tuning-Qwen2.5-Coder-3B-Instruct/
 FIntureing-Qwen2.5*/
 
 Fine-tuning-Qwen2.5-Coder-3B-Instruct
+
+# Python virtual environments
+venv/
+.venv/
+env/
+
+# Python cache/artifacts
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
